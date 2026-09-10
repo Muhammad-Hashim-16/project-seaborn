@@ -1,0 +1,5 @@
+df_41 = _base_brain_networks.copy()
+df_41_sub = df_41.iloc[:, :20].corr()
+g_41 = sns.clustermap(data=df_41_sub, cmap="vlag", vmin=-1, vmax=1, linewidths=0.5, annot=False)
+g_41.fig.suptitle("Plot 41: Advanced Biological Connectivity Clustermap", y=1.02)
+plt.close(g_41.fig)

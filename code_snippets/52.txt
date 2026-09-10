@@ -1,0 +1,4 @@
+df_52 = _base_exercise.copy()
+g_52 = sns.catplot(data=df_52, x="time", y="pulse", col="kind", row="diet", kind="point", height=3.5, aspect=1.1)
+g_52.fig.suptitle("Plot 52: Multi-Factor Factorial Condition Matrix", y=1.02)
+plt.close(g_52.fig)

@@ -1,0 +1,6 @@
+df_15 = _base_iris.copy()
+df_15_numeric = df_15.select_dtypes(include=[np.number])
+fig_15, ax_15 = plt.subplots(figsize=(6, 5))
+sns.heatmap(data=df_15_numeric.corr(), annot=True, ax=ax_15)
+ax_15.set_title("Plot 15: Basic Correlation Heatmap")
+plt.close(fig_15)

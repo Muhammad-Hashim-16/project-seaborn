@@ -1,0 +1,5 @@
+df_1 = _base_tips.copy()
+fig_1, ax_1 = plt.subplots(figsize=(8, 5))
+sns.scatterplot(data=df_1, x="total_bill", y="tip", ax=ax_1)
+ax_1.set_title("Plot 1: Basic Scatter Plot")
+plt.close(fig_1)

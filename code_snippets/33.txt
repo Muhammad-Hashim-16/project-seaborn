@@ -1,0 +1,4 @@
+df_33 = _base_penguins.copy()
+g_33 = sns.displot(data=df_33, x="flipper_length_mm", col="sex", hue="species", kind="kde", multiple="stack")
+g_33.fig.suptitle("Plot 33: Faceted Stacked Density Matrix", y=1.05)
+plt.close(g_33.fig)

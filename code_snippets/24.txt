@@ -1,0 +1,5 @@
+df_24 = _base_titanic.copy()
+fig_24, ax_24 = plt.subplots(figsize=(8, 5))
+sns.barplot(data=df_24, x="class", y="fare", hue="sex", ax=ax_24, errorbar=None)
+ax_24.set_title("Plot 24: Segmented Bar Grid")
+plt.close(fig_24)

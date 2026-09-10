@@ -1,0 +1,5 @@
+df_5 = _base_penguins.copy()
+fig_5, ax_5 = plt.subplots(figsize=(8, 5))
+sns.histplot(data=df_5, x="flipper_length_mm", ax=ax_5)
+ax_5.set_title("Plot 5: Basic Histogram")
+plt.close(fig_5)

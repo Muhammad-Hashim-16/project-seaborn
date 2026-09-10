@@ -1,0 +1,5 @@
+df_49 = _base_mpg.copy()
+g_49 = sns.jointplot(data=df_49, x="weight", y="acceleration", kind="hex", color="#4CB391")
+g_49.plot_joint(sns.kdeplot, color="black", zorder=5, levels=4)
+g_49.fig.suptitle("Plot 49: Combined Hexagonal Mesh and Isodensity Contours", y=1.02)
+plt.close(g_49.fig)

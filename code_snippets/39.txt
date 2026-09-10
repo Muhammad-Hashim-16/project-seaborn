@@ -1,0 +1,6 @@
+df_39 = _base_tips.copy()
+fig_39, (ax_39_1, ax_39_2) = plt.subplots(1, 2, figsize=(14, 5))
+sns.scatterplot(data=df_39, x="total_bill", y="tip", ax=ax_39_1)
+sns.boxplot(data=df_39, x="size", y="total_bill", ax=ax_39_2)
+fig_39.suptitle("Plot 39: Custom Heterogeneous Subplot Panel")
+plt.close(fig_39)

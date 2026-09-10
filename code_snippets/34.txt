@@ -1,0 +1,4 @@
+df_34 = _base_tips.copy()
+g_34 = sns.lmplot(data=df_34, x="total_bill", y="tip", col="smoker", hue="sex")
+g_34.fig.suptitle("Plot 34: Faceted Regression Dynamics", y=1.05)
+plt.close(g_34.fig)

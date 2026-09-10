@@ -1,0 +1,4 @@
+df_55 = _base_tips.copy()
+g_55 = sns.displot(data=df_55, x="total_bill", hue="sex", col="day", kind="ecdf", lw=2)
+g_55.fig.suptitle("Plot 55: Faceted Step Cumulative Distribution Curves", y=1.05)
+plt.close(g_55.fig)

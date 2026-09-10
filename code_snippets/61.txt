@@ -1,0 +1,6 @@
+df_61 = _base_diamonds.copy()
+fig_61, ax_61 = plt.subplots(figsize=(9, 6))
+sns.boxenplot(data=df_61, x="color", y="price", hue="cut", showfliers=False, ax=ax_61)
+ax_61.set_yscale("log")
+ax_61.set_title("Plot 61: Scale-Inverted Multi-Quantile Distribution Analysis")
+plt.close(fig_61)

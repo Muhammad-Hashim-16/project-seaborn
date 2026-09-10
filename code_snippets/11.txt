@@ -1,0 +1,6 @@
+df_11 = _base_penguins.copy()
+fig_11, ax_11 = plt.subplots(figsize=(8, 5))
+sns.scatterplot(data=df_11, x="bill_length_mm", y="bill_depth_mm", ax=ax_11)
+sns.rugplot(data=df_11, x="bill_length_mm", y="bill_depth_mm", ax=ax_11)
+ax_11.set_title("Plot 11: Scatter Plot with Marginal Rugs")
+plt.close(fig_11)

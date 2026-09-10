@@ -1,0 +1,5 @@
+df_45 = _base_titanic.copy()
+fig_45, ax_45 = plt.subplots(figsize=(8, 5))
+sns.regplot(data=df_45, x="fare", y="survived", order=2, ax=ax_45, scatter_kws={"alpha":0.3})
+ax_45.set_title("Plot 45: Polynomial Target Probability Profile")
+plt.close(fig_45)

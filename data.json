@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "name": "Scatter Plot",
+    "difficulty": "Beginner",
+    "tags": [],
+    "image": "figures/1.png",
+    "code_file": "code_snippets/1.txt"
+  },
+  {
+    "id": 2,
+    "name": "Line Plot",
+    "difficulty": "Beginner",
+    "tags": [],
+    "image": "figures/2.png",
+    "code_file": "code_snippets/2.txt"
+  },
+  {
+    "id": 3,
+    "name": "Bar Plot",
+    "difficulty": "Beginner",
+    "tags": [],
+    "image": "figures/3.png",
+    "code_file": "code_snippets/3.txt"
+  },
+  {
+    "id": 4,
+    "name": "Count Plot",
+    "difficulty": "Beginner",
+    "tags": [],
+    "image": "figures/4.png",
+    "code_file": "code_snippets/4.txt"
+  },
+  {
+    "id": 5,
+    "name": "Histogram",
+    "difficulty": "Beginner",
+    "tags": [],
+    "image": "figures/5.png",
+    "code_file": "code_snippets/5.txt"
+  },
+  {
+    "id": 6,
+    "name": "KDE Plot",
+    "difficulty": "Beginner",
+    "tags": [],
+    "image": "figures/6.png",
+    "code_file": "code_snippets/6.txt"
+  },
+  {
+    "id": 7,
+    "name": "Box Plot",
+    "difficulty": "Beginner",
+    "tags": [],
+    "image": "figures/7.png",
+    "code_file": "code_snippets/7.txt"
+  },
+  {
+    "id": 8,
+    "name": "Violin Plot",
+    "difficulty": "Beginner",
+    "tags": [],
+    "image": "figures/8.png",
+    "code_file": "code_snippets/8.txt"
+  },
+  {
+    "id": 9,
+    "name": "Stripplot",
+    "difficulty": "Beginner",
+    "tags": [],
+    "image": "figures/9.png",
+    "code_file": "code_snippets/9.txt"
+  },
+  {
+    "id": 10,
+    "name": "Swarmplot",
+    "difficulty": "Beginner",
+    "tags": [],
+    "image": "figures/10.png",
+    "code_file": "code_snippets/10.txt"
+  },
+  {
+    "id": 11,
+    "name": "Rug Plot",
+    "difficulty": "Beginner",
+    "tags": [],
+    "image": "figures/11.png",
+    "code_file": "code_snippets/11.txt"
+  },
+  {
+    "id": 12,
+    "name": "Empirical Cumulative Distribution Function",
+    "difficulty": "Beginner",
+    "tags": [],
+    "image": "figures/12.png",
+    "code_file": "code_snippets/12.txt"
+  },
+  {
+    "id": 13,
+    "name": "Linear Regression Plot",
+    "difficulty": "Beginner",
+    "tags": [],
+    "image": "figures/13.png",
+    "code_file": "code_snippets/13.txt"
+  },
+  {
+    "id": 14,
+    "name": "Residplot",
+    "difficulty": "Beginner",
+    "tags": [],
+    "image": "figures/14.png",
+    "code_file": "code_snippets/14.txt"
+  },
+  {
+    "id": 15,
+    "name": "Correlation Heatmap",
+    "difficulty": "Beginner",
+    "tags": [],
+    "image": "figures/15.png",
+    "code_file": "code_snippets/15.txt"
+  },
+  {
+    "id": 16,
+    "name": "Horizontal Bar Plot",
+    "difficulty": "Beginner",
+    "tags": [],
+    "image": "figures/16.png",
+    "code_file": "code_snippets/16.txt"
+  },
+  {
+    "id": 17,
+    "name": "Bivariate Histogram",
+    "difficulty": "Beginner",
+    "tags": [],
+    "image": "figures/17.png",
+    "code_file": "code_snippets/17.txt"
+  },
+  {
+    "id": 18,
+    "name": "Bivariate KDE",
+    "difficulty": "Beginner",
+    "tags": [],
+    "image": "figures/18.png",
+    "code_file": "code_snippets/18.txt"
+  },
+  {
+    "id": 19,
+    "name": "Point Plot",
+    "difficulty": "Beginner",
+    "tags": [],
+    "image": "figures/19.png",
+    "code_file": "code_snippets/19.txt"
+  },
+  {
+    "id": 20,
+    "name": "Boxenplot",
+    "difficulty": "Beginner",
+    "tags": [],
+    "image": "figures/20.png",
+    "code_file": "code_snippets/20.txt"
+  },
+  {
+    "id": 21,
+    "name": "Hue-Encoded Scatter Plot",
+    "difficulty": "Intermediate",
+    "tags": [],
+    "image": "figures/21.png",
+    "code_file": "code_snippets/21.txt"
+  },
+  {
+    "id": 22,
+    "name": "Sized Scatter Plot",
+    "difficulty": "Intermediate",
+    "tags": [],
+    "image": "figures/22.png",
+    "code_file": "code_snippets/22.txt"
+  },
+  {
+    "id": 23,
+    "name": "Styled Multi-Line Plot",
+    "difficulty": "Intermediate",
+    "tags": [],
+    "image": "figures/23.png",
+    "code_file": "code_snippets/23.txt"
+  },
+  {
+    "id": 24,
+    "name": "Grouped Bar Plot",
+    "difficulty": "Intermediate",
+    "tags": [],
+    "image": "figures/24.png",
+    "code_file": "code_snippets/24.txt"
+  },
+  {
+    "id": 25,
+    "name": "Stacked/Grouped Countplot",
+    "difficulty": "Intermediate",
+    "tags": [],
+    "image": "figures/25.png",
+    "code_file": "code_snippets/25.txt"
+  },
+  {
+    "id": 26,
+    "name": "Multi-Element Histplot",
+    "difficulty": "Intermediate",
+    "tags": [],
+    "image": "figures/26.png",
+    "code_file": "code_snippets/26.txt"
+  },
+  {
+    "id": 27,
+    "name": "Grouped Violin Plot",
+    "difficulty": "Intermediate",
+    "tags": [],
+    "image": "figures/27.png",
+    "code_file": "code_snippets/27.txt"
+  },
+  {
+    "id": 28,
+    "name": "Jointplot (Scatter + Marginal Histograms)",
+    "difficulty": "Intermediate",
+    "tags": [],
+    "image": "figures/28.png",
+    "code_file": "code_snippets/28.txt"
+  },
+  {
+    "id": 29,
+    "name": "Jointplot Hex",
+    "difficulty": "Intermediate",
+    "tags": [],
+    "image": "figures/29.png",
+    "code_file": "code_snippets/29.txt"
+  },
+  {
+    "id": 30,
+    "name": "Pairplot Grid",
+    "difficulty": "Intermediate",
+    "tags": [],
+    "image": "figures/30.png",
+    "code_file": "code_snippets/30.txt"
+  },
+  {
+    "id": 31,
+    "name": "Figure-Level Relplot",
+    "difficulty": "Intermediate",
+    "tags": [],
+    "image": "figures/31.png",
+    "code_file": "code_snippets/31.txt"
+  },
+  {
+    "id": 32,
+    "name": "Figure-Level Catplot",
+    "difficulty": "Intermediate",
+    "tags": [],
+    "image": "figures/32.png",
+    "code_file": "code_snippets/32.txt"
+  },
+  {
+    "id": 33,
+    "name": "Figure-Level Displot",
+    "difficulty": "Intermediate",
+    "tags": [],
+    "image": "figures/33.png",
+    "code_file": "code_snippets/33.txt"
+  },
+  {
+    "id": 34,
+    "name": "Lmplot Grid",
+    "difficulty": "Intermediate",
+    "tags": [],
+    "image": "figures/34.png",
+    "code_file": "code_snippets/34.txt"
+  },
+  {
+    "id": 35,
+    "name": "Custom FacetGrid Base",
+    "difficulty": "Intermediate",
+    "tags": [],
+    "image": "figures/35.png",
+    "code_file": "code_snippets/35.txt"
+  },
+  {
+    "id": 36,
+    "name": "Stacked Percentage Bar Chart",
+    "difficulty": "Intermediate",
+    "tags": [],
+    "image": "figures/36.png",
+    "code_file": "code_snippets/36.txt"
+  },
+  {
+    "id": 37,
+    "name": "Cluster Heatmap",
+    "difficulty": "Intermediate",
+    "tags": [],
+    "image": "figures/37.png",
+    "code_file": "code_snippets/37.txt"
+  },
+  {
+    "id": 38,
+    "name": "Logarithmic Scaling Plots",
+    "difficulty": "Intermediate",
+    "tags": [],
+    "image": "figures/38.png",
+    "code_file": "code_snippets/38.txt"
+  },
+  {
+    "id": 39,
+    "name": "Custom Multi-Plot Layout",
+    "difficulty": "Intermediate",
+    "tags": [],
+    "image": "figures/39.png",
+    "code_file": "code_snippets/39.txt"
+  },
+  {
+    "id": 40,
+    "name": "Advanced Pair Grid",
+    "difficulty": "Intermediate",
+    "tags": [],
+    "image": "figures/40.png",
+    "code_file": "code_snippets/40.txt"
+  },
+  {
+    "id": 41,
+    "name": "High-Dimensional Matrix Cluster Mapping",
+    "difficulty": "Advanced",
+    "tags": [],
+    "image": "figures/41.png",
+    "code_file": "code_snippets/41.txt"
+  },
+  {
+    "id": 42,
+    "name": "Jointplot with Layered Bivariate Contours",
+    "difficulty": "Advanced",
+    "tags": [],
+    "image": "figures/42.png",
+    "code_file": "code_snippets/42.txt"
+  },
+  {
+    "id": 43,
+    "name": "Multi-Layer Regression Faceting",
+    "difficulty": "Advanced",
+    "tags": [],
+    "image": "figures/43.png",
+    "code_file": "code_snippets/43.txt"
+  },
+  {
+    "id": 44,
+    "name": "Ridge Plot Construction",
+    "difficulty": "Advanced",
+    "tags": [],
+    "image": "figures/44.png",
+    "code_file": "code_snippets/44.txt"
+  },
+  {
+    "id": 45,
+    "name": "Polynomial Regression Evaluation (Dependencies Safe)",
+    "difficulty": "Advanced",
+    "tags": [],
+    "image": "figures/45.png",
+    "code_file": "code_snippets/45.txt"
+  },
+  {
+    "id": 46,
+    "name": "Linear Correlation Control Matrices",
+    "difficulty": "Advanced",
+    "tags": [],
+    "image": "figures/46.png",
+    "code_file": "code_snippets/46.txt"
+  },
+  {
+    "id": 47,
+    "name": "Advanced Violin Layering",
+    "difficulty": "Advanced",
+    "tags": [],
+    "image": "figures/47.png",
+    "code_file": "code_snippets/47.txt"
+  },
+  {
+    "id": 48,
+    "name": "FacetGrid Path Mapping",
+    "difficulty": "Advanced",
+    "tags": [],
+    "image": "figures/48.png",
+    "code_file": "code_snippets/48.txt"
+  },
+  {
+    "id": 49,
+    "name": "Hex-Mesh Bivariate Analysis",
+    "difficulty": "Advanced",
+    "tags": [],
+    "image": "figures/49.png",
+    "code_file": "code_snippets/49.txt"
+  },
+  {
+    "id": 50,
+    "name": "Non-Linear LOWESS Analysis",
+    "difficulty": "Advanced",
+    "tags": [],
+    "image": "figures/50.png",
+    "code_file": "code_snippets/50.txt"
+  },
+  {
+    "id": 51,
+    "name": "Multi-Variable Continuous Point Tracking",
+    "difficulty": "Advanced",
+    "tags": [],
+    "image": "figures/51.png",
+    "code_file": "code_snippets/51.txt"
+  },
+  {
+    "id": 52,
+    "name": "Faceted Structural Counting",
+    "difficulty": "Advanced",
+    "tags": [],
+    "image": "figures/52.png",
+    "code_file": "code_snippets/52.txt"
+  },
+  {
+    "id": 53,
+    "name": "PairGrid with Independent Linear Estimates",
+    "difficulty": "Advanced",
+    "tags": [],
+    "image": "figures/53.png",
+    "code_file": "code_snippets/53.txt"
+  },
+  {
+    "id": 54,
+    "name": "Categorical Boxplots Palette Array",
+    "difficulty": "Advanced",
+    "tags": [],
+    "image": "figures/54.png",
+    "code_file": "code_snippets/54.txt"
+  },
+  {
+    "id": 55,
+    "name": "Bivariate Conditional ECDF",
+    "difficulty": "Advanced",
+    "tags": [],
+    "image": "figures/55.png",
+    "code_file": "code_snippets/55.txt"
+  },
+  {
+    "id": 56,
+    "name": "Custom Subplot Allocation Matrix",
+    "difficulty": "Advanced",
+    "tags": [],
+    "image": "figures/56.png",
+    "code_file": "code_snippets/56.txt"
+  },
+  {
+    "id": 57,
+    "name": "Multi-Class Density Outlines",
+    "difficulty": "Advanced",
+    "tags": [],
+    "image": "figures/57.png",
+    "code_file": "code_snippets/57.txt"
+  },
+  {
+    "id": 58,
+    "name": "Standardized Residual Target Analysis",
+    "difficulty": "Advanced",
+    "tags": [],
+    "image": "figures/58.png",
+    "code_file": "code_snippets/58.txt"
+  },
+  {
+    "id": 59,
+    "name": "Multi-Value Categorical Swarm",
+    "difficulty": "Advanced",
+    "tags": [],
+    "image": "figures/59.png",
+    "code_file": "code_snippets/59.txt"
+  },
+  {
+    "id": 60,
+    "name": "Advanced Heatmap Matrix",
+    "difficulty": "Advanced",
+    "tags": [],
+    "image": "figures/60.png",
+    "code_file": "code_snippets/60.txt"
+  },
+  {
+    "id": 61,
+    "name": "Complex Logarithmic Boxenplot",
+    "difficulty": "Advanced",
+    "tags": [],
+    "image": "figures/61.png",
+    "code_file": "code_snippets/61.txt"
+  },
+  {
+    "id": 62,
+    "name": "Outlier Detection Pair-Matrix",
+    "difficulty": "Advanced",
+    "tags": [],
+    "image": "figures/62.png",
+    "code_file": "code_snippets/62.txt"
+  },
+  {
+    "id": 63,
+    "name": "Time-Series Aggregations",
+    "difficulty": "Advanced",
+    "tags": [],
+    "image": "figures/63.png",
+    "code_file": "code_snippets/63.txt"
+  },
+  {
+    "id": 64,
+    "name": "Dual-Axis Distribution Overlays",
+    "difficulty": "Advanced",
+    "tags": [],
+    "image": "figures/64.png",
+    "code_file": "code_snippets/64.txt"
+  },
+  {
+    "id": 65,
+    "name": "Matrix Facet Wraps",
+    "difficulty": "Advanced",
+    "tags": [],
+    "image": "figures/65.png",
+    "code_file": "code_snippets/65.txt"
+  }
+]

@@ -1,0 +1,5 @@
+df_59 = _base_attention.copy()
+fig_59, ax_59 = plt.subplots(figsize=(8, 5))
+sns.swarmplot(data=df_59, x="solutions", y="score", hue="attention", size=6, ax=ax_59)
+ax_59.set_title("Plot 59: Multi-Factor Grouped Swarm Dispersion Plot")
+plt.close(fig_59)

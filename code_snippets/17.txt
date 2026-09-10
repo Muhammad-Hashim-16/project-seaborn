@@ -1,0 +1,5 @@
+df_17 = _base_penguins.copy()
+fig_17, ax_17 = plt.subplots(figsize=(8, 5))
+sns.histplot(data=df_17, x="bill_length_mm", y="bill_depth_mm", ax=ax_17)
+ax_17.set_title("Plot 17: Bivariate Histogram")
+plt.close(fig_17)

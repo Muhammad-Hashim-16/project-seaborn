@@ -1,0 +1,5 @@
+df_22 = _base_mpg.copy()
+fig_22, ax_22 = plt.subplots(figsize=(8, 5))
+sns.scatterplot(data=df_22, x="horsepower", y="mpg", size="weight", sizes=(20, 200), ax=ax_22)
+ax_22.set_title("Plot 22: Bubble Scatter Layout")
+plt.close(fig_22)

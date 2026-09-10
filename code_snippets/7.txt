@@ -1,0 +1,5 @@
+df_7 = _base_tips.copy()
+fig_7, ax_7 = plt.subplots(figsize=(8, 5))
+sns.boxplot(data=df_7, x="day", y="total_bill", ax=ax_7)
+ax_7.set_title("Plot 7: Standard Box Plot")
+plt.close(fig_7)

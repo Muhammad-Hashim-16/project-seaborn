@@ -1,0 +1,5 @@
+df_54 = _base_diamonds.copy().sample(5000, random_state=12)
+fig_54, ax_54 = plt.subplots(figsize=(10, 5))
+sns.boxplot(data=df_54, x="color", y="price", hue="clarity", palette="ch:start=.2,rot=-.3", ax=ax_54)
+ax_54.set_title("Plot 54: High-Density Ordered Categorical Whisker Panel")
+plt.close(fig_54)

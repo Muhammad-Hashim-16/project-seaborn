@@ -1,0 +1,4 @@
+df_43 = _base_mpg.copy()
+g_43 = sns.lmplot(data=df_43, x="weight", y="mpg", col="origin", hue="origin", order=2, ci=95, scatter_kws={"alpha": 0.4})
+g_43.fig.suptitle("Plot 43: Second-Order Polynomial Regression Matrix", y=1.05)
+plt.close(g_43.fig)

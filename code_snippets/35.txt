@@ -1,0 +1,5 @@
+df_35 = _base_iris.copy()
+g_35 = sns.FacetGrid(df_35, col="species")
+g_35.map(plt.scatter, "sepal_length", "sepal_width")
+g_35.fig.suptitle("Plot 35: Standard FacetGrid Layout", y=1.05)
+plt.close(g_35.fig)

@@ -1,0 +1,7 @@
+df_63 = _base_seaice.copy()
+df_63["Year"] = pd.to_datetime(df_63["Date"]).dt.year
+df_63_sub = df_63[df_63["Year"].between(1980, 2010)]
+fig_63, ax_63 = plt.subplots(figsize=(10, 5))
+sns.lineplot(data=df_63_sub, x="Year", y="Extent", errorbar="sd", estimator="mean", ax=ax_63)
+ax_63.set_title("Plot 63: Decadal Trend Analysis with Variance Bounds")
+plt.close(fig_63)

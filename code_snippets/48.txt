@@ -1,0 +1,5 @@
+df_48 = _base_dots.copy().query("align == 'dots'")
+g_48 = sns.FacetGrid(df_48, col="choice", hue="coherence", palette="viridis", col_wrap=2)
+g_48.map(plt.plot, "time", "firing_rate", marker="o", ms=4)
+g_48.fig.suptitle("Plot 48: High-Frequency Temporal Matrix Networks", y=1.02)
+plt.close(g_48.fig)

@@ -1,0 +1,5 @@
+df_25 = _base_titanic.copy()
+fig_25, ax_25 = plt.subplots(figsize=(8, 5))
+sns.countplot(data=df_25, x="deck", hue="embark_town", ax=ax_25)
+ax_25.set_title("Plot 25: Categorical Distribution Breakdown")
+plt.close(fig_25)

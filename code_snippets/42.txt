@@ -1,0 +1,4 @@
+df_42 = _base_penguins.copy()
+g_42 = sns.jointplot(data=df_42, x="bill_length_mm", y="bill_depth_mm", hue="species", kind="kde", alpha=0.7)
+g_42.fig.suptitle("Plot 42: Layered Bivariate Kernel Densities", y=1.02)
+plt.close(g_42.fig)

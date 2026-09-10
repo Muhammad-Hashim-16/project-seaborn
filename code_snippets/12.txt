@@ -1,0 +1,5 @@
+df_12 = _base_iris.copy()
+fig_12, ax_12 = plt.subplots(figsize=(8, 5))
+sns.ecdfplot(data=df_12, x="sepal_width", ax=ax_12)
+ax_12.set_title("Plot 12: ECDF Plot")
+plt.close(fig_12)

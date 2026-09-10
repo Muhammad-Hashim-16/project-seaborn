@@ -1,0 +1,10 @@
+df_40 = _base_iris.copy()
+g_40 = sns.PairGrid(df_40, hue="species")
+g_40.map_upper(sns.scatterplot)
+g_40.map_lower(sns.kdeplot, alpha=0.5)
+g_40.map_diag(sns.histplot)
+g_40.fig.suptitle("Plot 40: Multi-Process Non-Symmetric Pair Matrix", y=1.02)
+plt.close(g_40.fig)
+
+
+# PHASE 3: ADVANCED LEVEL (Plots 41 to 65)

@@ -1,0 +1,5 @@
+df_14 = _base_tips.copy()
+fig_14, ax_14 = plt.subplots(figsize=(8, 5))
+sns.residplot(data=df_14, x="total_bill", y="tip", ax=ax_14)
+ax_14.set_title("Plot 14: Linear Regression Residuals")
+plt.close(fig_14)

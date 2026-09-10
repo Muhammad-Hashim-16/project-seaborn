@@ -1,0 +1,5 @@
+df_50 = _base_mpg.copy()
+fig_50, ax_50 = plt.subplots(figsize=(8, 5))
+sns.regplot(data=df_50, x="displacement", y="mpg", lowess=True, ax=ax_50, line_kws={"color": "red", "lw": 3})
+ax_50.set_title("Plot 50: Non-Parametric LOWESS Trend Model")
+plt.close(fig_50)

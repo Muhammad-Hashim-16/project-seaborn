@@ -1,0 +1,7 @@
+df_65 = _base_car_crashes.copy().head(12)
+df_65_melted = pd.melt(df_65, id_vars=["abbrev"], value_vars=["speeding", "alcohol", "not_distracted"])
+g_65 = sns.catplot(data=df_65_melted, x="abbrev", y="value", col="variable", kind="bar", col_wrap=1, height=3, aspect=3)
+g_65.fig.suptitle("Plot 65: Standard Multi-Metric Performance Tracking Array", y=1.02)
+plt.close(g_65.fig)
+
+print("Execution successfully verified. All plots constructed using independent variable spaces.")

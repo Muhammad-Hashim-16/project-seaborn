@@ -1,0 +1,7 @@
+df_62 = _base_penguins.copy().dropna()
+g_62 = sns.PairGrid(df_62, hue="sex", corner=True)
+g_62.map_lower(sns.scatterplot, alpha=0.6, edgecolor="none", s=25)
+g_62.map_diag(sns.kdeplot, fill=True)
+g_62.add_legend()
+g_62.fig.suptitle("Plot 62: Lower-Triangular Target Correlation Grid", y=1.02)
+plt.close(g_62.fig)

@@ -1,0 +1,5 @@
+df_9 = _base_iris.copy()
+fig_9, ax_9 = plt.subplots(figsize=(8, 5))
+sns.stripplot(data=df_9, x="species", y="petal_length", ax=ax_9)
+ax_9.set_title("Plot 9: Categorical Strip Plot")
+plt.close(fig_9)

@@ -1,0 +1,7 @@
+df_46 = _base_diamonds.copy().select_dtypes(include=[np.number])
+df_46_corr = df_46.corr()
+mask_46 = np.triu(np.ones_like(df_46_corr, dtype=bool))
+fig_46, ax_46 = plt.subplots(figsize=(8, 6))
+sns.heatmap(data=df_46_corr, mask=mask_46, cmap="coolwarm", annot=True, fmt=".2f", ax=ax_46)
+ax_46.set_title("Plot 46: Masked Upper Triangular Matrix Correlation")
+plt.close(fig_46)

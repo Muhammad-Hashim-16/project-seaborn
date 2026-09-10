@@ -1,0 +1,5 @@
+df_27 = _base_tips.copy()
+fig_27, ax_27 = plt.subplots(figsize=(8, 5))
+sns.violinplot(data=df_27, x="day", y="total_bill", hue="sex", split=True, ax=ax_27)
+ax_27.set_title("Plot 27: Split Violin Comparison")
+plt.close(fig_27)

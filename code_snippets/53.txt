@@ -1,0 +1,6 @@
+df_53 = _base_penguins.copy()
+g_53 = sns.PairGrid(df_53, hue="species", vars=["bill_length_mm", "bill_depth_mm", "flipper_length_mm"])
+g_53.map_diag(sns.histplot, multiple="stack")
+g_53.map_offdiag(sns.regplot, scatter_kws={"alpha": 0.3})
+g_53.fig.suptitle("Plot 53: Pair Grid with Local Subgroup Trend Models", y=1.02)
+plt.close(g_53.fig)

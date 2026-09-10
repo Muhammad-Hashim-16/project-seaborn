@@ -1,0 +1,6 @@
+df_47 = _base_tips.copy()
+fig_47, ax_47 = plt.subplots(figsize=(9, 6))
+sns.violinplot(data=df_47, x="day", y="total_bill", hue="smoker", inner="quart", palette="muted", ax=ax_47)
+sns.stripplot(data=df_47, x="day", y="total_bill", hue="smoker", dodge=True, alpha=0.3, palette="dark:black", ax=ax_47)
+ax_47.set_title("Plot 47: Hybrid Quantile Violin & Dot-Strip Layout")
+plt.close(fig_47)

@@ -1,0 +1,5 @@
+df_60 = _base_mpg.copy().select_dtypes(include=[np.number]).dropna().corr()
+fig_60, ax_60 = plt.subplots(figsize=(8, 6))
+sns.heatmap(data=df_60, annot=True, fmt=".3f", cmap="magma", linewidths=1, linecolor="grey", cbar=True, ax=ax_60)
+ax_60.set_title("Plot 60: Precision Heatmap Metric Grid")
+plt.close(fig_60)

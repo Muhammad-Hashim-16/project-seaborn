@@ -1,0 +1,4 @@
+df_30 = _base_iris.copy()
+g_30 = sns.pairplot(data=df_30, hue="species")
+g_30.fig.suptitle("Plot 30: Pairwise Feature Matrix Grid", y=1.02)
+plt.close(g_30.fig)

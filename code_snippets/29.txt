@@ -1,0 +1,4 @@
+df_29 = _base_diamonds.copy().sample(2000, random_state=42)
+g_29 = sns.jointplot(data=df_29, x="carat", y="price", kind="hex")
+g_29.fig.suptitle("Plot 29: Hexagonal Joint Distribution Mesh", y=1.02)
+plt.close(g_29.fig)

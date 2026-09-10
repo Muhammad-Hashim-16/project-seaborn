@@ -1,0 +1,5 @@
+df_37 = _base_flights.copy()
+df_37_piv = df_37.pivot(index="month", columns="year", values="passengers")
+g_37 = sns.clustermap(data=df_37_piv, row_cluster=False, col_cluster=True, cmap="mako")
+g_37.fig.suptitle("Plot 37: Clustered Matrix View", y=1.02)
+plt.close(g_37.fig)

@@ -1,0 +1,5 @@
+df_10 = _base_tips.copy()
+fig_10, ax_10 = plt.subplots(figsize=(8, 5))
+sns.swarmplot(data=df_10, x="day", y="tip", ax=ax_10)
+ax_10.set_title("Plot 10: Categorical Swarm Plot")
+plt.close(fig_10)

@@ -1,0 +1,4 @@
+df_31 = _base_tips.copy()
+g_31 = sns.relplot(data=df_31, x="total_bill", y="tip", col="time", hue="smoker", kind="scatter")
+g_31.fig.suptitle("Plot 31: Faceted Relational Scatter", y=1.05)
+plt.close(g_31.fig)

@@ -1,0 +1,5 @@
+df_16 = _base_car_crashes.copy().sort_values("total", ascending=False).head(10)
+fig_16, ax_16 = plt.subplots(figsize=(8, 5))
+sns.barplot(data=df_16, x="total", y="abbrev", ax=ax_16)
+ax_16.set_title("Plot 16: Horizontal Bar Chart")
+plt.close(fig_16)

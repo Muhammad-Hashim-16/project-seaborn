@@ -1,0 +1,5 @@
+df_21 = _base_tips.copy()
+fig_21, ax_21 = plt.subplots(figsize=(8, 5))
+sns.scatterplot(data=df_21, x="total_bill", y="tip", hue="smoker", ax=ax_21)
+ax_21.set_title("Plot 21: Grouped Scatter Plot")
+plt.close(fig_21)

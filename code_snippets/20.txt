@@ -1,0 +1,8 @@
+df_20 = _base_diamonds.copy()
+fig_20, ax_20 = plt.subplots(figsize=(8, 5))
+sns.boxenplot(data=df_20, x="cut", y="price", ax=ax_20)
+ax_20.set_title("Plot 20: Quantile Boxenplot")
+plt.close(fig_20)
+
+
+# PHASE 2: INTERMEDIATE LEVEL (Plots 21 to 40)

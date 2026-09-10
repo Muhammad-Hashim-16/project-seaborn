@@ -1,0 +1,4 @@
+df_28 = _base_iris.copy()
+g_28 = sns.jointplot(data=df_28, x="sepal_length", y="sepal_width", kind="scatter")
+g_28.fig.suptitle("Plot 28: Joint Scatter & Histogram", y=1.02)
+plt.close(g_28.fig)

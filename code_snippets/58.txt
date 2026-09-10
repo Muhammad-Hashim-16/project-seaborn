@@ -1,0 +1,4 @@
+df_58 = _base_anscombe.copy()
+g_58 = sns.lmplot(data=df_58, x="x", y="y", col="dataset", hue="dataset", col_wrap=2, ci=None, height=4)
+g_58.fig.suptitle("Plot 58: Comparative Evaluation of Anscombe's Quartet", y=1.02)
+plt.close(g_58.fig)

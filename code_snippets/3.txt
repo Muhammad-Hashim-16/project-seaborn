@@ -1,0 +1,5 @@
+df_3 = _base_titanic.copy()
+fig_3, ax_3 = plt.subplots(figsize=(8, 5))
+sns.barplot(data=df_3, x="class", y="fare", ax=ax_3, errorbar=None)
+ax_3.set_title("Plot 3: Categorical Bar Plot")
+plt.close(fig_3)

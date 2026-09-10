@@ -1,0 +1,4 @@
+df_32 = _base_tips.copy()
+g_32 = sns.catplot(data=df_32, x="day", y="total_bill", col="smoker", kind="box")
+g_32.fig.suptitle("Plot 32: Faceted Categorical Boxes", y=1.05)
+plt.close(g_32.fig)

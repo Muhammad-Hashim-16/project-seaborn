@@ -1,0 +1,5 @@
+df_8 = _base_tips.copy()
+fig_8, ax_8 = plt.subplots(figsize=(8, 5))
+sns.violinplot(data=df_8, x="time", y="tip", ax=ax_8)
+ax_8.set_title("Plot 8: Standard Violin Plot")
+plt.close(fig_8)

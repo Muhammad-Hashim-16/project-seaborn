@@ -1,0 +1,5 @@
+df_26 = _base_penguins.copy()
+fig_26, ax_26 = plt.subplots(figsize=(8, 5))
+sns.histplot(data=df_26, x="flipper_length_mm", hue="species", element="step", ax=ax_26)
+ax_26.set_title("Plot 26: Layered Step Histograms")
+plt.close(fig_26)

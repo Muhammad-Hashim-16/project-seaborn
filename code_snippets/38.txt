@@ -1,0 +1,6 @@
+df_38 = _base_diamonds.copy()
+fig_38, ax_38 = plt.subplots(figsize=(8, 5))
+sns.scatterplot(data=df_38, x="carat", y="price", ax=ax_38, alpha=0.3)
+ax_38.set_yscale("log")
+ax_38.set_title("Plot 38: Log-Transformed Numeric Target Axis")
+plt.close(fig_38)

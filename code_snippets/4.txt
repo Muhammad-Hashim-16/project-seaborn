@@ -1,0 +1,5 @@
+df_4 = _base_titanic.copy()
+fig_4, ax_4 = plt.subplots(figsize=(8, 5))
+sns.countplot(data=df_4, x="alive", ax=ax_4)
+ax_4.set_title("Plot 4: Basic Count Plot")
+plt.close(fig_4)
